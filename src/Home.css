@@ -1,0 +1,90 @@
+.Home {
+    display: flex;
+    align-items: flex-start;
+    height: 100%;
+    height: 100vh;
+  }
+  
+  
+  .entrepriseContainer{
+    width: 30%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .titleContainer{
+  
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  .title{
+    font-style:italic;
+    font-weight: 700;
+    font-size: xx-large;
+    letter-spacing: 0.45ch;
+    
+  }
+  .EntrepriseimageContainer {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+
+  
+  .image{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 20vh;
+
+}
+  .informationsContainer{
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .info{
+    height:100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.value{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.info_text{
+    font-size:x-large;
+    margin-top: 2cm;
+}
+
+.info_data{
+    font-size:large;
+    margin-top: 2.2cm;
+
+}
+
+
+
+  
+  .mapContainer{
+    width: 70%;
+    height: 100vh;
+  
+  }
+  
+  

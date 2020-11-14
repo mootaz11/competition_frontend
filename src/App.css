@@ -1,38 +1,43 @@
 .App {
-  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.entrepriseContainer{
+  width: 30%;
+  background-color: white;
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+
+.titleContainer{
+
+  height: 20%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  display: flex;
+  align-items: center;
+}
+.title{
+  font-style:italic;
+  font-weight: 700;
+  font-size: xx-large;
+  letter-spacing: 0.45ch;
+  
+}
+.informationsContainer{
+  height: 80%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.mapContainer{
+  width: 70%;
+  height: 100vh;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
